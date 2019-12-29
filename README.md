@@ -3,6 +3,8 @@
 BaseEmoji is a python module for encoding any ASCII string or byte object into emoticons and back. It can be used to hide information in text conversations, e.g. chat or twitter or to display hashes in a graphica/more comparable way.  
 It supports two codecs: anybase and group256. This module is also the reference implementation of these two codecs.
 
+Made with ❤️ on 36c3!
+
 ## Install
 ```bash
 pip install emojibase
