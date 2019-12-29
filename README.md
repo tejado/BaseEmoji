@@ -52,5 +52,4 @@ e.get_groups()
 ```
 
 ## Roadmap
-- Change filter settings
 - Add filter options to encoded data for automatic decoding
