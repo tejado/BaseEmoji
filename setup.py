@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="emojibase", # Replace with your own username
-    version="0.0.5",
+    version="0.0.1",
     author="tejado",
     author_email="tjado@maecke.de",
     description="Encode any data to emojis",
