@@ -57,6 +57,7 @@ e.get_groups()
 ```
 
 ## Roadmap
+<<<<<<< HEAD
 - Change filter settings
 - Add filter options to encoded data for automatic decoding
 
@@ -64,3 +65,6 @@ e.get_groups()
 - Inspired by [CuteUID](https://github.com/alexdredmon/cuteuid)
 - Emoji data from [muan](https://github.com/muan/unicode-emoji-json)
 - [Jonas](https://github.com/jonas-koeritz)
+=======
+- Add filter options to encoded data for automatic decoding
+>>>>>>> b72d4e1c0035a0463d769591acbfb524660c9c81
