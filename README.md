@@ -14,7 +14,7 @@ View on PyPi via [https://pypi.org/project/emojibase/](https://pypi.org/project/
 ## Usage
 
 ### anybase
-anybase is a BaseEmoji codec which works by converting the input to the base of the amoung of emojis, set by the filter. 
+anybase is a BaseEmoji codec which works by converting the input to the base of the amount of emojis, set by the filter. 
 
 ```python
 import BaseEmoji
