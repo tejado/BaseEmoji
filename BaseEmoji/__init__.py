@@ -2,6 +2,7 @@ import os
 import sys
 import json
 from .codecs import *
+from collections import OrderedDict
 
 class BaseEmoji:
 
@@ -11,7 +12,7 @@ class BaseEmoji:
 
     def load_emojis(self, file): 
         with open(self.emoji_file) as fs:
-            emoji_json = json.load(fs)
+            emoji_json = json.load(fs, object_pairs_hook=OrderedDict)
         return emoji_json
 
     def __getattr__(self, func):
