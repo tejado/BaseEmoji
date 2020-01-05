@@ -11,7 +11,7 @@ class BaseEmoji:
         self.all_emojis = self.load_emojis(self.emoji_file)
 
     def load_emojis(self, file): 
-        with open(self.emoji_file) as fs:
+        with open(self.emoji_file, encoding='utf-8') as fs:
             emoji_json = json.load(fs, object_pairs_hook=OrderedDict)
         return emoji_json
 
