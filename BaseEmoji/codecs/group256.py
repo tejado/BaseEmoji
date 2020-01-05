@@ -20,6 +20,9 @@ class group256(BaseEmojiAbstract):
             self.emap[chunk] = self.filtered_emojis[chunk::self.num_chunks]
         
     def encode(self, data):
+        if not isinstance(data, str):
+            raise TypeError("data must be a string")
+
         dedup = [0] * self.num_chunks
         output = ''
 
